@@ -3,8 +3,13 @@ using System.Collections.Generic;
 
 namespace diggers_and_fliers {
 
-    public interface IName
+    public interface ILiveOntheGround
         {
             string AboveGround { get; set; }
+
+            void WalkWalkWalk();
+            void HeckRun();
+
+            void ImASnek();
         } 
 }
