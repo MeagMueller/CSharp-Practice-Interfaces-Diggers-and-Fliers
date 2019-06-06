@@ -6,5 +6,7 @@ namespace diggers_and_fliers {
     public interface IFly
         {
             string Flybaby { get; set; }
+
+            void GetSomeAir();
         }
 }
